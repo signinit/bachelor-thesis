@@ -26,7 +26,7 @@ I'm not sure how they achieved the results of "object-1" in the paper because th
 I started by PolyFit compiling the newest version of PolyFit via Visual Studio as I couldn't find a pre build version for 1.4 on the releases page.  
 I overread the notice about using Mapple for converting to .vg (Voxel Grid) files, which is the file extension PolyFit uses to import the Point Clouds.  
 As I didnt find any information about that file type in the internet, I started digging into the source code and and build my own ply to vb converter ("ply-to-vb.ipynb"). But as PolyFit expects the input also to be segmented in the planes, I looked again on to the website and found the mentioning of Mapple for converting and segmenting the pount cloud. I then read about RANSAC to improve improve the segmentation I was doing. After that I achieved a really good estimation of "object-2".  
-But as I depicted above the rest didnt went so well. 
+But as I depicted above the rest didnt went so well, but I added the results of the sample point clouds anyways. ("object-1", "object-3", "object-4", "object-5")   
 
 ### Task 2
 
